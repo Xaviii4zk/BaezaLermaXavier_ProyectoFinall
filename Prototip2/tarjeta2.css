@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contenedor-principal {
+  max-width: 1100px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.contenido-superior {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 50px;
+}
+
+.texto-izquierda {
+  flex: 1;
+  min-width: 300px;
+  max-width: 300px; 
+  text-align: left;
+  margin: 2rem auto; 
+}
+
+.texto-izquierda h1 {
+  font-size: 2rem;
+  text-align: left;
+  padding: 20px;
+}
+
+.texto-izquierda p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px;
+}
+
+.boton {
+  background-color: #000;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  position: relative;
+  top: -30px;
+  left: 20px;
+}
+
+
+.imagenes-arriba {
+  display: flex;
+  gap: 3rem;
+  flex: 1;
+  justify-content: center;
+  width: 1000px;
+  height: 335px;
+ object-fit: cover;
+ }
+
+.imagenes-arriba img {
+  border-radius: 10px;
+}
+
+.subir-imagen {
+ position: relative;
+  top: -60px;
+  right: 10px;
+
+}
+
+.subir-imagen2 {
+ position: relative;
+  right: -20px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.paisaje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  min-width: 200px;
+}
+
+.paisaje img {
+  width: 90%;
+  border-radius: 10px;
+  object-fit: cover;
+}
