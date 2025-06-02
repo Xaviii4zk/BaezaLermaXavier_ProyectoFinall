@@ -50,7 +50,6 @@
   .tarjetas {
     display: flex;
     flex-wrap: wrap;
-    
     justify-content: center;
     gap: 1rem;
     max-width: 1200px;
@@ -67,7 +66,6 @@
     border-radius: 4px;
     text-align: center;
     padding: 1rem;
-    transition: box-shadow 0.3s ease;
     border: 1px solid #bbb;
   }
   
